@@ -1,0 +1,39 @@
+.signin {
+    margin-top: 200px;
+    align-content: center;
+    text-align: center;
+    
+  }
+
+
+
+  html {
+    background-image: url("https://media.defense.gov/2018/Dec/28/2002076297/780/780/0/181228-A-A1408-001.JPG");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+  }
+  
+  #root {
+    background: none;
+    background-color: transparent;
+  }
+
+  .piece {
+      float: left;
+      width: 25%;
+      margin-top: 15%;
+      margin-left: 32%;
+     
+  }
+
+  .register{
+    float: left;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 32%;
+  }
+
+  

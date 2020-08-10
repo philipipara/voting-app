@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.president {
+  color:black;
+  border-radius: 45px;
+  border-color: #5bc0de;
+  border: 1px solid;
+  padding: 10px;
+  /* box-shadow: 5px 2px #5bc0de; */
+  
+}
+
+.image {
+  box-shadow: 10px 10px 5px 5px whitesmoke;
+}
+
+.jumbotron {
+  background-image: url("https://media.defense.gov/2018/Dec/28/2002076297/780/780/0/181228-A-A1408-001.JPG");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  
+ 
+
+}
+
+.jumbotron-title{
+  text-shadow: 2px 2px whitesmoke;
+}
+
+#donald {
+  font-size: x-large;
+  
+}
+
+.donald {
+  color:#DE0100;
+
+}
+
+#joe {
+  font-size: x-large;
+  
+}
+
+.biden {
+  color:#0015BC;
+}
+
+.voteBtn {
+  background-color: warning;
+}
+
+.joeBtn {
+  background-color: transparent;
+  color: black;
+  border-color: #0015BC;
+}
+
+.donBtn {
+  background-color: transparent;
+  color: black;
+  border-color: #DE0100;
+  
+}
+
+.donBtn:hover {
+  background-color: #DE0100;
+}
+
+.joeBtn:hover {
+  background-color: #0015BC;
+}
+
+.signin {
+  margin-top: 200px;
+  align-content: center;
+  text-align: center;
+  
+  
+}
+
+
+
+
+
