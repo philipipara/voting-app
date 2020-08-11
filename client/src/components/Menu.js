@@ -13,7 +13,7 @@ import {
   DropdownItem,
 } from 'reactstrap';
 import { isAuthenticated, signout } from './helper';
-import { Redirect } from "react-router-dom";
+
 
 
 
@@ -64,9 +64,7 @@ const Menu= (props) => {
               
               onClick={() => {
                 signout(() => {
-                  return(
-                    <Redirect to="/" />
-                  )
+                  window.location.reload();
                   
                 });
                 
