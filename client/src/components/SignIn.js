@@ -110,14 +110,22 @@ const Login = () => {
       <FormGroup>
         <Label for="examplePassword">Password</Label>
         <Input 
-          
           type="password" 
           value={password}
           onChange={handleChange("password")}
           placeholder="Enter password" />
         </FormGroup>
-        <Button onClick={onSubmit}style={{color: "blue", backgroundColor: "white"}}>Submit</Button>
-     
+        <Button 
+          onClick={onSubmit}
+          style={{color: "blue", backgroundColor: "white"}}
+          >Login
+        </Button>
+        <Button 
+          className="ml-2" 
+          style={{color: "red", backgroundColor: "white"}}
+          href="/signup">
+          Haven't Signed Up?
+          </Button>
        </Form>
           </Card.Text>
         </Card.Body>

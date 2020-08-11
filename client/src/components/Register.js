@@ -100,7 +100,7 @@ const Register = () => {
            placeholder="Enter password" />
          </FormGroup>
          <Button onClick={handleSubmit} style={{color: "blue", backgroundColor: "white"}}>Submit</Button>
-      
+         <Button className="ml-2"style={{color: "red", backgroundColor: "white"}} href="/signin">Already Have an account? </Button>
         </Form>
            </Card.Text>
          </Card.Body>
