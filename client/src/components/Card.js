@@ -18,6 +18,13 @@ const MyCard = ({
 
     const [vote, setVote] = useState(0)
     const {user} = isAuthenticated
+    const [disable, setDisable] = useState(false)
+
+    const clickVote = () => {
+      setVote(vote + 1)
+      setDisable(true)
+    }
+
 
   return (
     <div>
@@ -30,7 +37,7 @@ const MyCard = ({
           {!isAuthenticated() ? 
           <Button variant="outline" href="/signin"className={`${buttonName}`} onsize="lg">Login to Vote</Button> 
           :
-          <Button variant="outline" className={`${buttonName}`} onClick={() => setVote(vote + 1)}  size="lg">Vote</Button> 
+          <Button variant="outline" id="voteBtn" className={`${buttonName}`} disabled={disable} onClick={clickVote}  size="lg">Vote</Button> 
           }
         
           <CardText>Total Votes: {vote}</CardText>
