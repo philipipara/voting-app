@@ -4,4 +4,3 @@ I decided with all of the arguing going on about mail-in votes to create a quick
 
 Application is not finished yet. I am working on getting the vote total set up in the database and only being allowed to vote once per person. As of now a vote just disables the vote button. 
 
-deployed: https://bidentrumpelection.herokuapp.com/
